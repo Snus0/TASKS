@@ -1,0 +1,100 @@
+body {
+  width: 100%;
+  display: block;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0;
+  align-content: flex-start;
+}
+
+.header-div {
+  background-color: green;
+  height: 150px;
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.mid-div {
+  display: flex;
+  flex-flow: nowrap row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.aside-div {
+  display: flex;
+  background-color: yellow;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  min-width: 100px;
+  width: 30%;
+  margin: 20px;
+  border-radius: 10px
+}
+
+.article-div {
+  display: flex;
+  background-color: orange;
+  height: 500px;
+  min-width: 280px;
+  width: 70%;
+  margin: 20px;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  border-radius: 10px
+}
+
+.footer-div {
+  background-color: green;
+  height: 150px;
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border-radius: 10px
+}
+
+.article-text {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.aside-text {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.image-div {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.image-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.square {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  background-color: black;
+  color: white;
+  display: inherit;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  margin: 0;
+}
