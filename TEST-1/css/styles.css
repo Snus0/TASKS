@@ -1,0 +1,29 @@
+body {
+  background-image: url(backimg.jpg);
+}
+
+a {
+  font-size: 2.5rem;
+}
+
+a:hover {
+  color: red;
+  font-size: 2.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #d6a41a;
+  background-color: black;
+  width: auto;
+  display: inline-block;
+}
+
+.man {
+  position: absolute;
+  left: 40%;
+  top: 25%;
+  height: 400px;
+  width: 300px;
+  border-radius: 100%;
+  border: 5px solid brown;
+}
