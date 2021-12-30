@@ -1,0 +1,156 @@
+body {
+  width: 100%;
+  display: block;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0;
+  align-content: flex-start;
+}
+
+.header-div {
+  background-color: green;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.mid-div {
+  display: flex;
+  flex-flow: nowrap row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.aside-div {
+  display: flex;
+  background-color: yellow;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 30%;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.article-div {
+  display: flex;
+  background-color: orange;
+  height: 500px;
+  width: 70%;
+  margin: 20px;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  border-radius: 10px;
+}
+
+.footer-div {
+  background-color: green;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.article-text {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.aside-text {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.image-div {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: black;
+  color: white;
+  display: inherit;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .image-div {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .square {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 260px) {
+  .header-div {
+    margin: 5px 20px 5px 20px;
+  }
+
+  .footer-div {
+    margin: 5px 20px 5px 20px;
+  }
+
+  .mid-div {
+    display: flex;
+    flex-flow: nowrap column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px;
+  }
+
+  .aside-div {
+    width: 80%;
+    height: 200px;
+  }
+
+  .article-div {
+    width: 80%;
+    height: 300px;
+  }
+
+  .image-div {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .square {
+    height: 20px;
+    width: 20px;
+    margin: auto;
+  }
+
+  .image-text {
+    visibility: hidden;
+  }
+}
